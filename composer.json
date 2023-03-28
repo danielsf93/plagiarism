@@ -1,0 +1,19 @@
+{
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/asmecher/ithenticate"
+		}
+	],
+	"require": {
+		"bsobbe/ithenticate": "dev-master#8440a85",
+		"cweagans/composer-patches": "^1.7"
+	},
+	"extra": {
+		"patches": {
+			"phpxmlrpc/phpxmlrpc": {
+				"Allow other datetime possibility": "lib/phpxmlrpc-datetime.diff"
+			}
+		}
+	}
+}
