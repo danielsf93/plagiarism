@@ -20,7 +20,7 @@ para este plugin "funcionar" tive que fazer mudanças no arquivo /ojs-3.2.1-1/co
 ;username = "meu-email-do-ithentticate@abcd.usp.br"
 
 ; The password to access the API
-;password = "SENHA DO ITHENTICATE"
+;password = "SENHA DO ITHENTICATE SEM CARACTERES ESPECIAIS?"
 
 
 
